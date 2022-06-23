@@ -229,6 +229,9 @@ main{
   main{
     margin-top: 70%;
   }
+  .home-page{
+    padding: 20px;
+  }
   .mobile-nav{
     display: block;
     width: 100%;
