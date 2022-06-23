@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+
+    
+}
+
+.flex{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.sticky{
+    position: sticky;
+}
+.fixed{
+    position: fixed;
+    top: -2px;
+    z-index: 9;
+    width: 100vw;
+
+}
+.nav{
+    /* background-color: #0dcaf0; */
+    background-color: #fff;
+    box-shadow: 0px,0px,50px,0px gray;
+    color:#ffc107;
+    font-size: 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128,0.3);
+    height: 10vh;
+    
+    
+    
+}
+.border{
+    color: black;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a:link{ text-decoration: none;}
+a:visited{ text-decoration: none;}
+a:hover{ text-decoration: none;}
+a:active{text-decoration: none;}
+.photo{
+    background-color: rgba(240, 248, 255,0.3);
+    width: 40vw;
+    height: 70vh;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px 3px rgb(0, 0, 0,0.2);
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+button{
+    height: 100px;
+    width: 500px;
+    border:none;
+    color: black;
+    background-color:#ffc107;
+    border-radius:5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+    
+.button-text{
+    color: black;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#image-style{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 25%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.myname{
+    position:absolute;
+    top: 50px;
+    left:150px;
+    color:#ffc107;
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hobbies{
+    background-color: rgba(240, 248, 255,0.2);
+    box-shadow:3px 3px 3px 2px rgb(0, 0, 0,0.1);
+    width: 20vw;
+    height: 100vh;
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+li{
+    font-size: 2rem;
+    line-height:1.2cm;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif
+}
+.mb{
+    margin-bottom: 10%;
+}
+.bio{
+    background-color: rgba(240, 248, 255,0.3);
+    padding:5px;
+    font-size: 2.35rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer{
+    border-top: 2px solid black;
+
+}
+.color{
+    color: #ffc107;
+}
+.search{
+  padding: 10px;
+  width: 30vw;
+  border: 2px solid #ffc107;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.hamburger-items{
+  line-height:1cm;
+  background-color: white;
+  position: absolute;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0,0.5);
+
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.d-none{
+  display: none;
+}
+main{
+  margin-top: 20%;
+}
+.col-1 {
+    width: 8.33333333%;
+  }
+  
+  .col-2 {
+    width: 16.66666667%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.33333333%;
+  }
+  
+  .col-5 {
+    width: 41.66666667%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.33333333%;
+  }
+  
+  .col-8 {
+    width: 66.66666667%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.33333333%;
+  }
+  
+  .col-11 {
+    width: 91.66666667%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+@media (max-width:576px) {
+  .desktop-nav{
+    display: none;
+
+  }
+  main{
+    margin-top: 70%;
+  }
+  .mobile-nav{
+    display: block;
+    width: 100%;
+  }
+  .photo-slide{
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .photo{
+    width: 100%;
+  }
+  .hamburger-items{
+    right: 70%;
+    top: 140%;
+  }
+  .hamburger-menu{
+    cursor: pointer;
+  }
+  .search{
+    width: 100%;
+  }
+  .bio{
+    width: 100%;
+    font-size: 2rem;
+    height: 100%;
+  }
+  .cv-div{
+    flex-direction: column;
+    width: 100%;
+  }
+  .hobbies{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .myname{
+    display: none;
+  }
+  button{
+    width: 100%;
+  }
+  .button-text{
+    font-size: 2rem;
+  }
+  .footer{
+    border: none;
+  }
+  
+}

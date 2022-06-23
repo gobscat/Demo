@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRATION PAGE</title>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <div class="header main-content mb">
+      <header>
+        <h1>REGISTRATION FORM</h1>
+      </header>
+    </div>
+
+    <main>
+      <div class="main-content mb">
+        <div class="sign-up-form">
+          <h2 class="gold">REGISTER AN ACCOUNT</h2>
+          <form action="GET">
+            <div class="row">
+              <div>
+                <label for="fname" class="text-font">First Name:</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="fname"
+                  required
+                  minlength="3"
+                  maxlength="20"
+                  id="fname"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div>
+                <label for="Lname" class="text-font">Last Name:</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="Lname"
+                  required
+                  minlength="3"
+                  maxlength="20"
+                  id="Lname"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="phone" class="text-font">Phone:</label>
+              </div>
+              <div>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="234-818-6910-028"
+                  required
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}-[0-9]{3}"
+                  id="phone"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="Gender" class="text-font">Gender:</label>
+              </div>
+              <div>
+                <select>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="country" class="text-font">Country:</label>
+              </div>
+              <div>
+                <input type="text" name="Country" required id="country" />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="state/province" class="text-font"
+                  >State/Province:</label
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="State/Province"
+                  required
+                  id="state/province"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="Email" class="text-font">Email:</label>
+              </div>
+              <div>
+                <input type="email" name="Email" required id="Email" />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="password" class="text-font">Password:</label>
+              </div>
+              <div>
+                <input
+                  type="password"
+                  name="password"
+                  required
+                  minlength="8"
+                  required
+                  id="password"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="Confirm password" class="text-font"
+                  >Confirm Password:</label
+                >
+              </div>
+              <div>
+                <input
+                  type="password"
+                  name="Confirm password"
+                  minlength="8"
+                  required
+                  id="confirm-password"
+                />
+              </div>
+            </div>
+            <div class="flex-end">
+              <div>
+                <button type="submit"><b>Submit</b></button>
+              </div>
+            </div>
+            <div>
+              <div>
+                <p class="text-font">
+                  Already have an account?
+                  <a href="./login.html" class="gold"><b>Log in</b></a>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer main-content">
+        <h3>POWERED BY Othniel</h3>
+      </div>
+    </footer>
+  </body>
+</html>
