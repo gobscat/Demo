@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:50vh;
+    height:55vh;
     width: 30vw;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -52,10 +52,10 @@ button{
     color: black;
     background-color:gold;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .text-font{
     font-size: 1.5rem;
@@ -79,4 +79,17 @@ a:active{text-decoration: none;}
 }
 .mb{
     margin-bottom: 2%;
+}
+@media (max-width:576px){
+    .login-form{
+        padding: 30px;
+        width: 90%;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .text-font{
+        font-size: 1rem;
+        padding: 5px;
+}
 }
